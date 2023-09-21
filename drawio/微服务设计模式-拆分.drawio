@@ -1,41 +1,41 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T14:13:11.500Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="WW_1CV4ZP-h57doJNxQW" version="21.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-21T15:04:55.752Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="-0JOntEtJKN_dvV7IOOu" version="21.8.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1465" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="1465" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="3KiA_Lac_WNfhhEKunAJ-5" value="逻辑视图" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="207" y="140" width="120" height="60" as="geometry" />
+          <mxGeometry x="274" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3KiA_Lac_WNfhhEKunAJ-6" value="进程视图" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="207" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="274" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3KiA_Lac_WNfhhEKunAJ-7" value="实现视图" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="357" y="140" width="120" height="60" as="geometry" />
+          <mxGeometry x="424" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3KiA_Lac_WNfhhEKunAJ-8" value="部署视图" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="357" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="424" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3KiA_Lac_WNfhhEKunAJ-9" value="场景" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="297" y="180" width="80" height="80" as="geometry" />
+          <mxGeometry x="364" y="260" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3KiA_Lac_WNfhhEKunAJ-12" value="由开发人员创建&lt;div style=&quot;resize: none; outline: none; font-size: 13px; color: rgb(50, 50, 50); font-family: 微软雅黑;&quot;&gt;元素： 类。包&lt;/div&gt;&lt;div style=&quot;resize: none; outline: none; font-size: 13px; color: rgb(50, 50, 50); font-family: 微软雅黑;&quot;&gt;关系： 类与包之间的关系&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="17" y="135" width="200" height="70" as="geometry" />
+          <mxGeometry x="84" y="215" width="200" height="70" as="geometry" />
         </mxCell>
         <mxCell id="3KiA_Lac_WNfhhEKunAJ-13" value="运行的组件&lt;div style=&quot;resize: none; outline: none; font-size: 13px; color: rgb(50, 50, 50); font-family: 微软雅黑;&quot;&gt;元素：进程&lt;/div&gt;&lt;div style=&quot;resize: none; outline: none; font-size: 13px; color: rgb(50, 50, 50); font-family: 微软雅黑;&quot;&gt;关系：进程间的通信&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="10" y="230" width="160" height="70" as="geometry" />
+          <mxGeometry x="77" y="310" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="3KiA_Lac_WNfhhEKunAJ-14" value="由构建系统创建&lt;div style=&quot;resize: none; outline: none; font-size: 13px; color: rgb(50, 50, 50); font-family: 微软雅黑;&quot;&gt;元素：JAR包或者WAR&lt;/div&gt;&lt;div style=&quot;resize: none; outline: none; font-size: 13px; color: rgb(50, 50, 50); font-family: 微软雅黑;&quot;&gt;关系： 他们之间的依赖关系&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="487" y="130" width="210" height="70" as="geometry" />
+          <mxGeometry x="554" y="210" width="210" height="70" as="geometry" />
         </mxCell>
         <mxCell id="3KiA_Lac_WNfhhEKunAJ-15" value="运行在机器上的进程&lt;div style=&quot;resize: none; outline: none; font-size: 13px; color: rgb(50, 50, 50); font-family: 微软雅黑;&quot;&gt;元素： 机器&amp;amp;进程&lt;/div&gt;&lt;div style=&quot;resize: none; outline: none; font-size: 13px; color: rgb(50, 50, 50); font-family: 微软雅黑;&quot;&gt;关系： 网络通信&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="507" y="230" width="160" height="70" as="geometry" />
+          <mxGeometry x="574" y="310" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="3KiA_Lac_WNfhhEKunAJ-16" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="17" y="370" width="143" height="330" as="geometry" />
+          <mxGeometry x="84" y="450" width="143" height="330" as="geometry" />
         </mxCell>
         <mxCell id="3KiA_Lac_WNfhhEKunAJ-17" value="餐饮App" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="420" y="370" width="113" height="330" as="geometry" />
+          <mxGeometry x="394" y="430" width="113" height="330" as="geometry" />
         </mxCell>
         <mxCell id="3KiA_Lac_WNfhhEKunAJ-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3KiA_Lac_WNfhhEKunAJ-18" target="3KiA_Lac_WNfhhEKunAJ-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -46,7 +46,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3KiA_Lac_WNfhhEKunAJ-18" value="顾客想下单" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="30" y="420" width="120" height="60" as="geometry" />
+          <mxGeometry x="97" y="500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3KiA_Lac_WNfhhEKunAJ-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3KiA_Lac_WNfhhEKunAJ-19" target="3KiA_Lac_WNfhhEKunAJ-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -57,10 +57,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3KiA_Lac_WNfhhEKunAJ-19" value="餐馆想接受单" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="28.5" y="560" width="121.5" height="60" as="geometry" />
+          <mxGeometry x="95.5" y="640" width="121.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="F_mLyd655lwNizN5p80W-0" value="&lt;h1 style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px; font-weight: 400;&quot; color=&quot;#323232&quot;&gt;计算机系统的架构师构建此系统的所需要的一组结构，包括软件元素、他们之间的关系以及两者的属性&lt;/font&gt;&lt;div style=&quot;border-color: var(--border-color); resize: none; outline: none; font-size: 13px; color: rgb(50, 50, 50); font-family: 微软雅黑; font-weight: 400;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#323232&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); resize: none; outline: none; font-size: 13px; color: rgb(50, 50, 50); font-family: 微软雅黑; font-weight: 400;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#323232&quot;&gt;架构决定了软件的非功能性的因素，如可维护性，可拓展性，可不属性以及可测试性&lt;/font&gt;&lt;/div&gt;&lt;/h1&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="40" y="20" width="720" height="90" as="geometry" />
+          <mxGeometry x="107" y="100" width="720" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FTz0cPuI6kUVEm_UTkAv-1" value="&lt;h1 style=&quot;border-color: var(--border-color);&quot;&gt;微服务的拆分方式&lt;div style=&quot;resize: none; outline: none; font-size: 13px; color: rgb(50, 50, 50); font-family: 微软雅黑; font-weight: 400;&quot;&gt;1.&amp;nbsp; 根据业务能力进行拆分： 比如送餐系统，有 订单管理，库存管理，账单管理等&lt;/div&gt;&lt;div style=&quot;resize: none; outline: none; font-size: 13px; color: rgb(50, 50, 50); font-family: 微软雅黑; font-weight: 400;&quot;&gt;2. 根据领域模型进行拆分： 还如上面的送餐系统，可拆分为，订单域。餐馆领域，支付领域，以及其子域&lt;/div&gt;&lt;/h1&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;align=left;textDirection=rtl;spacing=17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="450" width="470" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="FTz0cPuI6kUVEm_UTkAv-3" value="&lt;h1 style=&quot;border-color: var(--border-color);&quot;&gt;拆分原则&lt;div style=&quot;resize: none; outline: none; font-size: 13px; color: rgb(50, 50, 50); font-family: 微软雅黑; font-weight: 400;&quot;&gt;1. 单一职责： 改变类只有一个理由&lt;/div&gt;&lt;div style=&quot;resize: none; outline: none; font-size: 13px; color: rgb(50, 50, 50); font-family: 微软雅黑; font-weight: 400;&quot;&gt;2. 闭包原则： 对类进行修改，那么受影响的类应当在同一个包内&lt;/div&gt;&lt;/h1&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacing=17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="600" width="390" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FTz0cPuI6kUVEm_UTkAv-4" value="&lt;h1 style=&quot;border-color: var(--border-color);&quot;&gt;拆分难点&lt;div style=&quot;resize: none; outline: none; font-size: 13px; color: rgb(50, 50, 50); font-family: 微软雅黑; font-weight: 400;&quot;&gt;1. 网络延迟： 单体应用是不存在网络延迟的，拆分后存在&lt;/div&gt;&lt;div style=&quot;resize: none; outline: none; font-size: 13px; color: rgb(50, 50, 50); font-family: 微软雅黑; font-weight: 400;&quot;&gt;2. 同步进程可用性降低： 所依赖的服务不可用的情况下导致业务有损&lt;/div&gt;&lt;div style=&quot;resize: none; outline: none; font-size: 13px; color: rgb(50, 50, 50); font-family: 微软雅黑; font-weight: 400;&quot;&gt;3. 服务之间的数据一致性 ：分布式事务的问题&lt;/div&gt;&lt;div style=&quot;resize: none; outline: none; font-size: 13px; color: rgb(50, 50, 50); font-family: 微软雅黑; font-weight: 400;&quot;&gt;4. 获取视图不一致： 在单体应用中由于ACID的存在，可重复读实现了视图的一致性，对于多事务，可能就会出现视图不一致的情况&lt;/div&gt;&lt;div style=&quot;resize: none; outline: none; font-size: 13px; color: rgb(50, 50, 50); font-family: 微软雅黑; font-weight: 400;&quot;&gt;5. 上帝类组织了拆分：即全局类&lt;/div&gt;&lt;/h1&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacing=17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="565" y="710" width="485" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

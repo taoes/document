@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T05:38:49.881Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="HgDzs6JUv-PO5pMNQdEm" version="21.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-21T05:43:25.060Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="ZmWjtNQ3TJ40dnP20ob7" version="21.8.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -16,10 +16,10 @@
         <mxCell id="3KiA_Lac_WNfhhEKunAJ-8" value="部署视图" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="357" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3KiA_Lac_WNfhhEKunAJ-9" value="场景" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="3KiA_Lac_WNfhhEKunAJ-9" value="场景" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="297" y="180" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3KiA_Lac_WNfhhEKunAJ-10" value="&lt;h1&gt;&lt;font style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px; font-weight: 400;&quot; color=&quot;#323232&quot;&gt;计算机系统的架构师构建此系统的所需要的一组结构，包括软件元素、他们之间的关系以及两者的属性&lt;/font&gt;&lt;div style=&quot;resize: none; outline: none; font-size: 13px; color: rgb(50, 50, 50); font-family: 微软雅黑; font-weight: 400;&quot;&gt;&lt;font color=&quot;#323232&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;resize: none; outline: none; font-size: 13px; color: rgb(50, 50, 50); font-family: 微软雅黑; font-weight: 400;&quot;&gt;&lt;font color=&quot;#323232&quot;&gt;架构决定了软件的非功能性的因素，如可维护性，可拓展性，可不属性以及可测试性&lt;/font&gt;&lt;/div&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="3KiA_Lac_WNfhhEKunAJ-10" value="&lt;h1&gt;&lt;font style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px; font-weight: 400;&quot; color=&quot;#323232&quot;&gt;计算机系统的架构师构建此系统的所需要的一组结构，包括软件元素、他们之间的关系以及两者的属性&lt;/font&gt;&lt;div style=&quot;resize: none; outline: none; font-size: 13px; color: rgb(50, 50, 50); font-family: 微软雅黑; font-weight: 400;&quot;&gt;&lt;font color=&quot;#323232&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;resize: none; outline: none; font-size: 13px; color: rgb(50, 50, 50); font-family: 微软雅黑; font-weight: 400;&quot;&gt;&lt;font color=&quot;#323232&quot;&gt;架构决定了软件的非功能性的因素，如可维护性，可拓展性，可不属性以及可测试性&lt;/font&gt;&lt;/div&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#36393d;fillColor=#ffff88;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="15" y="20" width="710" height="90" as="geometry" />
         </mxCell>
         <mxCell id="3KiA_Lac_WNfhhEKunAJ-12" value="由开发人员创建&lt;div style=&quot;resize: none; outline: none; font-size: 13px; color: rgb(50, 50, 50); font-family: 微软雅黑;&quot;&gt;元素： 类。包&lt;/div&gt;&lt;div style=&quot;resize: none; outline: none; font-size: 13px; color: rgb(50, 50, 50); font-family: 微软雅黑;&quot;&gt;关系： 类与包之间的关系&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -61,6 +61,9 @@
         </mxCell>
         <mxCell id="3KiA_Lac_WNfhhEKunAJ-19" value="餐馆想接受单" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="28.5" y="560" width="121.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F_mLyd655lwNizN5p80W-0" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="840" y="20" width="80" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

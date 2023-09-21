@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T15:09:27.314Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="fn6rLuvLqdVZQQ_HAa-m" version="21.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-21T15:13:51.655Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="LgqaJMQX0OBPIMR0CAsz" version="21.8.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1465" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="FTz0cPuI6kUVEm_UTkAv-36" value="订单服务&lt;br&gt;OrderService" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1430" y="210" width="120" height="280" as="geometry" />
+        </mxCell>
         <mxCell id="3KiA_Lac_WNfhhEKunAJ-5" value="逻辑视图" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="227" y="140" width="120" height="60" as="geometry" />
         </mxCell>
@@ -156,6 +159,34 @@
         </mxCell>
         <mxCell id="FTz0cPuI6kUVEm_UTkAv-29" value="订单服务" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1140" y="1130" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FTz0cPuI6kUVEm_UTkAv-32" value="&lt;h1 style=&quot;border-color: var(--border-color); font-size: 13px;&quot;&gt;单体架构： 将应用构建为为单个可执行和可部署的组件&lt;div style=&quot;resize: none; outline: none; color: rgb(50, 50, 50); font-family: 微软雅黑; font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;resize: none; outline: none; color: rgb(50, 50, 50); font-family: 微软雅黑; font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;resize: none; outline: none; color: rgb(50, 50, 50); font-family: 微软雅黑; font-weight: 400;&quot;&gt;微服务架构： 将应用构建为多个松耦合，可独立部署的组件&lt;/div&gt;&lt;div style=&quot;resize: none; outline: none; color: rgb(50, 50, 50); font-family: 微软雅黑; font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;resize: none; outline: none; color: rgb(50, 50, 50); font-family: 微软雅黑; font-weight: 400;&quot;&gt;服务指的是：单一的，可独立部署的软件组件&lt;/div&gt;&lt;div style=&quot;resize: none; outline: none; color: rgb(50, 50, 50); font-family: 微软雅黑; font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;resize: none; outline: none; color: rgb(50, 50, 50); font-family: 微软雅黑; font-weight: 400;&quot;&gt;松耦合： 通过隔离的方式，封装了实现细节，在不影响客户端的情况下对实现方式进行修改&lt;/div&gt;&lt;/h1&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;textDirection=rtl;spacing=17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="950" y="10" width="380" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="FTz0cPuI6kUVEm_UTkAv-37" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FTz0cPuI6kUVEm_UTkAv-33" target="FTz0cPuI6kUVEm_UTkAv-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FTz0cPuI6kUVEm_UTkAv-40" value="API调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FTz0cPuI6kUVEm_UTkAv-37">
+          <mxGeometry x="-0.0505" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FTz0cPuI6kUVEm_UTkAv-33" value="服务客户端" style="rounded=1;whiteSpace=wrap;html=1;arcSize=23;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1150" y="220" width="90" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="FTz0cPuI6kUVEm_UTkAv-34" value="createOrder&lt;br&gt;findOrderByUserId" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1350" y="250" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FTz0cPuI6kUVEm_UTkAv-38" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.995;entryY=0.702;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FTz0cPuI6kUVEm_UTkAv-35" target="FTz0cPuI6kUVEm_UTkAv-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FTz0cPuI6kUVEm_UTkAv-39" value="事件订阅" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FTz0cPuI6kUVEm_UTkAv-38">
+          <mxGeometry x="0.4296" y="2" relative="1" as="geometry">
+            <mxPoint x="29" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FTz0cPuI6kUVEm_UTkAv-35" value="OrderEventPublish" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1350" y="370" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

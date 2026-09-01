@@ -1,0 +1,85 @@
+# 作用：
+#   1. 安装依赖并构建 VuePress 站点（生成静态 HTML）
+#   2. 将构建产物（src/.vuepress/dist）推送到一个独立的部署分支
+# 私有云服务器直接拉取该「部署分支」的最新代码即可发布。
+# 如默认分支不是 main，请修改下方 on.push.branches。
+
+name: Build and Deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: # 支持在 Actions 页面手动触发
+
+permissions:
+  contents: write # 允许推送到部署分支
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  DEPLOY_BRANCH: deploy # 部署分支名，可改为 pages / release 等
+  DIST_DIR: src/.vuepress/dist # 构建输出目录
+  NODE_VERSION: 22 # Node.js 版本
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        # 自动读取 package.json 的 packageManager 字段（pnpm@10.30.3）
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build site
+        run: pnpm docs:build
+
+      - name: Push build output to deploy branch
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+
+          TMP_DIR="$(mktemp -d)"
+          cp -R "$DIST_DIR"/. "$TMP_DIR"
+
+          cd "$TMP_DIR"
+          git init -q
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -q --orphan "$DEPLOY_BRANCH"
+          git add -A
+          git commit -q -m "deploy: $(date -u '+%Y-%m-%dT%H:%M:%SZ')" || echo "Nothing to commit"
+          git push -qf \
+            "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" \
+            "$DEPLOY_BRANCH"
+
+          echo "::notice::Deployed to branch: ${DEPLOY_BRANCH}"
+
+      # ===== 可选：方式 B —— CI 直接通过 SSH 同步到私有云服务器 =====
+      # 若服务器不方便拉取 git 分支，取消下面注释即可让 CI 直接 rsync 到服务器。
+      # 需在仓库 Settings -> Secrets and variables -> Actions 配置：
+      #   SSH_HOST / SSH_USER / SSH_PORT / SSH_PRIVATE_KEY
+      #
+      # - name: Deploy to server via rsync
+      #   uses: burnett01/rsync-deployments@7.0.2
+      #   with:
+      #     switches: -avzr --delete
+      #     path: ${{ env.DIST_DIR }}/
+      #     remote_path: /var/www/your-site/
+      #     remote_host: ${{ secrets.SSH_HOST }}
+      #     remote_user: ${{ secrets.SSH_USER }}
+      #     remote_port: ${{ secrets.SSH_PORT }}
+      #     remote_key: ${{ secrets.SSH_PRIVATE_KEY }}

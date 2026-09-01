@@ -1,0 +1,20 @@
+{
+  "name": "cijian-yuxu-blog",
+  "version": "2.0.0",
+  "description": "此间余序 —— 记录 Java、Python 与 Agent 实践的深度技术博客",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "docs:build": "vuepress-vite build src",
+    "docs:clean-dev": "vuepress-vite dev src --clean-cache",
+    "docs:dev": "vuepress-vite dev src"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.30",
+    "sass-embedded": "^1.99.0",
+    "vue": "^3.5.34",
+    "vuepress": "2.0.0-rc.30",
+    "vuepress-theme-hope": "2.0.0-rc.107"
+  },
+  "packageManager": "pnpm@10.30.3"
+}

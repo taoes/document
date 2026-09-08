@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "中间件/MySQL/MySQL的事务机制.md",
+                "file": "框架应用/Spring/事务支持.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "MySQL的事务机制"
+              "title": "事务支持"
             }
           }
         ]
@@ -191,16 +191,22 @@
   },
   "active": "2077aa1c678f264d",
   "lastOpenFiles": [
+    "面试总结/AI 面试题目汇总.md",
+    "人工智能/RAG 问题.md",
+    "中间件/Redis/Redis的集群模式.md",
+    "面试总结/架构设计面试题.md",
+    "面试总结/2026 面试准备.md",
+    "面试总结",
+    "面试总结/AI 面试.md",
+    "编程语言/Java/CompletableFuture.md",
+    "中间件/MySQL/MySQL的事务机制.md",
     "中间件/MySQL/MySQL的日志机制.md",
     "中间件/MySQL/MySQL 中的锁机制.md",
     "中间件/MySQL/MySQL对MVCC的实现.md",
     "编程语言/Java/Java中的锁.md",
-    "AI 面试.md",
-    "面试业务分析.md",
-    "鸣鸣很忙.md",
-    "难点问题.md",
-    "中间件/Redis/Redis的集群模式.md",
-    "中间件/MySQL/MySQL的事务机制.md",
+    "面试总结/面试业务分析.md",
+    "面试总结/鸣鸣很忙.md",
+    "面试总结/难点问题.md",
     "中间件/MySQL/MySQL的架构设计.md",
     "中间件/MySQL/MySQL的存储引擎.md",
     "容器化技术/Docker.md",
@@ -212,11 +218,6 @@
     "框架应用/Spring/IOC容器.md",
     "框架应用/SpringBoot/自动装配.md",
     "框架应用/Spring/事务支持.md",
-    "框架应用/Spring/设计模式.md",
-    "框架应用/MyBatis/MyBatis原理.md",
-    "监控系统/稳定性方案.md",
-    "架构设计/延时任务.md",
-    "架构设计/文件存储.md",
     "编程语言/Java/assert/Pasted image 20260906155916.png",
     "编程语言/Java/assert/Pasted image 20260906155443.png",
     "编程语言/Java/assert/Pasted image 20260906155348.png",

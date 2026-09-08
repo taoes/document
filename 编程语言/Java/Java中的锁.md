@@ -10,6 +10,12 @@
 
 <img src="assert/image-20240505170901125.png" alt="image-20240505170901125" style="zoom:50%;" />
 
+
+synchronized 在 JDK1.6 之后记性了优化，支持无锁，偏向锁，轻量级锁，重量级锁。在对象头的 Mark Word 上标记。
+无->偏向锁： 加锁的时候无竞争，升级为偏向锁‘
+偏向锁->轻量级锁： 存在锁竞争，且之前偏向锁没有释放锁
+轻量级锁->重量级锁： 轻量级锁 CAS 失败，升级为重量级锁。
+
 ### 2、抽象队列同步器- AbstractQueueSynchronizer
 
 AQS是一个用来构建锁和同步器的框架，使用AQS能简单且高效地构造出应用广泛的大量的同步器，比如我们提到的ReentrantLock，Semaphore，其他的诸如ReentrantReadWriteLock，SynchronousQueue，FutureTask等等皆是基于AQS的。当然，我们自己也能利用AQS非常轻松容易地构造出符合我们自己需求的同步器。

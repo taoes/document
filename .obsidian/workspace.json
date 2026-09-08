@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI 面试.md",
-                "mode": "source",
-                "source": false
+                "file": "中间件/MySQL/MySQL的事务机制.md",
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "AI 面试"
+              "title": "MySQL的事务机制"
             }
           }
         ]
@@ -191,10 +191,16 @@
   },
   "active": "2077aa1c678f264d",
   "lastOpenFiles": [
-    "中间件/Redis/Redis的集群模式.md",
-    "AI 面试.md",
-    "中间件/MySQL/MySQL的事务机制.md",
     "中间件/MySQL/MySQL的日志机制.md",
+    "中间件/MySQL/MySQL 中的锁机制.md",
+    "中间件/MySQL/MySQL对MVCC的实现.md",
+    "编程语言/Java/Java中的锁.md",
+    "AI 面试.md",
+    "面试业务分析.md",
+    "鸣鸣很忙.md",
+    "难点问题.md",
+    "中间件/Redis/Redis的集群模式.md",
+    "中间件/MySQL/MySQL的事务机制.md",
     "中间件/MySQL/MySQL的架构设计.md",
     "中间件/MySQL/MySQL的存储引擎.md",
     "容器化技术/Docker.md",
@@ -211,12 +217,6 @@
     "监控系统/稳定性方案.md",
     "架构设计/延时任务.md",
     "架构设计/文件存储.md",
-    "架构设计/认证&授权.md",
-    "架构设计/敏感词过滤.md",
-    "架构设计/异地多活/002.饿了么异地多活方案.md",
-    "架构设计/异地多活/001.异地多活.md",
-    "架构设计/微服务架构/微服务架构的基础.md",
-    "架构设计/缓存与数据一致性/缓存.md",
     "编程语言/Java/assert/Pasted image 20260906155916.png",
     "编程语言/Java/assert/Pasted image 20260906155443.png",
     "编程语言/Java/assert/Pasted image 20260906155348.png",

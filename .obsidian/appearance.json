@@ -1,9 +1,9 @@
 {
   "accentColor": "#1233b5",
-  "cssTheme": "Obuntu",
+  "cssTheme": "Things",
   "interfaceFontFamily": "FZYouSongS",
   "textFontFamily": "FZYouSongS",
-  "monospaceFontFamily": "Monaco,Fixedsys Excelsior",
+  "monospaceFontFamily": "PT Mono",
   "baseFontSize": 17,
   "translucency": true,
   "baseFontSizeAction": true,

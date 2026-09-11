@@ -7,5 +7,6 @@
   "attachmentFolderPath": "./assert",
   "rightToLeft": false,
   "showIndentGuide": true,
-  "foldIndent": false
+  "foldIndent": false,
+  "readableLineLength": false
 }

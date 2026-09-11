@@ -42,7 +42,7 @@
     "statusBar": "disabled"
   },
   "lineAuthor": {
-    "show": true,
+    "show": false,
     "followMovement": "inactive",
     "authorDisplay": "first name",
     "showCommitHash": false,

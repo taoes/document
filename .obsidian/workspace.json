@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e2c3711efd9b273f",
+        "id": "164182107a035045",
         "type": "tabs",
         "children": [
           {
-            "id": "f981f11981fd0aa1",
+            "id": "02b7ac9bdf863f3e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "架构设计/实战设计/题03：设计分布式计数器 & 全局排行榜.md",
-                "mode": "source",
+                "file": "README.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "题03：设计分布式计数器 & 全局排行榜"
+              "title": "README"
             }
           }
         ]
@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.60479736328125
+    "width": 440.50390625
   },
   "right": {
     "id": "ec7852295eb8b7d8",
@@ -189,10 +189,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f981f11981fd0aa1",
+  "active": "02b7ac9bdf863f3e",
   "lastOpenFiles": [
-    "架构设计/实战设计/题02：设计图片存储&图片缩略图服务（Image Hosting Service）.md",
+    "README.md",
     "架构设计/实战设计/题03：设计分布式计数器 & 全局排行榜.md",
+    "category_update.py",
+    "category_update.sh",
+    "未命名.md",
+    "架构设计/实战设计/题02：设计图片存储&图片缩略图服务（Image Hosting Service）.md",
     "架构设计/实战设计/题01：设计短链接服务（Design URL Shortener）.md",
     "编程算法/数学/M050. Pow(x, n).md",
     "架构设计/实战设计",
@@ -220,13 +224,9 @@
     "编程算法/链表",
     "编程算法/数组/L151. 反转字符串中的单词.md",
     "编程算法/双指针/L125. 验证回文串.md",
-    "编程算法/栈",
     "编程算法/哈希表/49. 字母异位词分组.md",
-    "编程算法/双指针",
     "编程算法/哈希表/L202. 【中等】快乐数.md",
     "编程算法/数组/L189. 【中等】轮转数组.md",
-    "编程算法/数组/L169. 多数元素.md",
-    "编程算法/数组/L088. 合并两个有序数组.md",
     "编程语言/Java/assert/Pasted image 20260906155916.png",
     "编程语言/Java/assert/Pasted image 20260906155443.png",
     "编程语言/Java/assert/Pasted image 20260906155348.png",

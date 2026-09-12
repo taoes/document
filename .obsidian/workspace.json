@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "架构设计/实战设计/题02：设计图片存储&图片缩略图服务（Image Hosting Service）.md",
+                "file": "架构设计/实战设计/题03：设计分布式计数器 & 全局排行榜.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "题02：设计图片存储&图片缩略图服务（Image Hosting Service）"
+              "title": "题03：设计分布式计数器 & 全局排行榜"
             }
           }
         ]
@@ -191,8 +191,9 @@
   },
   "active": "f981f11981fd0aa1",
   "lastOpenFiles": [
-    "架构设计/实战设计/题01：设计短链接服务（Design URL Shortener）.md",
     "架构设计/实战设计/题02：设计图片存储&图片缩略图服务（Image Hosting Service）.md",
+    "架构设计/实战设计/题03：设计分布式计数器 & 全局排行榜.md",
+    "架构设计/实战设计/题01：设计短链接服务（Design URL Shortener）.md",
     "编程算法/数学/M050. Pow(x, n).md",
     "架构设计/实战设计",
     "编程算法/数学/E009.回文数.md",
@@ -226,7 +227,6 @@
     "编程算法/数组/L189. 【中等】轮转数组.md",
     "编程算法/数组/L169. 多数元素.md",
     "编程算法/数组/L088. 合并两个有序数组.md",
-    "编程算法/数组/L026. 删除排序数组中的重复项.md",
     "编程语言/Java/assert/Pasted image 20260906155916.png",
     "编程语言/Java/assert/Pasted image 20260906155443.png",
     "编程语言/Java/assert/Pasted image 20260906155348.png",

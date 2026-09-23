@@ -108,7 +108,6 @@ create table short_url(
 )
 ```
 
-  
 
 - 如果使用自增 ID 生成短码，则先发号，再 Base62 得到 short_code，再按 short_code 分片写入。
 - 过期：逻辑过期 + 异步清理；查询时判断 `expire_at`，过期返回 410。
@@ -132,7 +131,6 @@ create table short_url(
 
 ### 6. 热点短链接处理
 
-  
 
 营销活动短链可能瞬间海量访问：
 
@@ -253,8 +251,6 @@ create table short_url(
 
 20. 监控哪些指标？SLO 怎么定？降级开关如何设计？
 > 看 QPS、P99、错误率、缓存命中、DB 连接、Kafka lag；SLO 如重定向 P99<50ms、可用性 99.99%；降级开关分级可回滚。
-
-
 ---
 
   

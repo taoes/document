@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "164182107a035045",
+        "id": "069cb78e4417b3be",
         "type": "tabs",
         "children": [
           {
-            "id": "02b7ac9bdf863f3e",
+            "id": "547dc58861f1b1ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "preview",
-                "source": true
+                "file": "人工智能/SpringAI/003. 记忆压缩和截取.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "003. 记忆压缩和截取"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "短链",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.50390625
+    "width": 228.96744918823242
   },
   "right": {
     "id": "ec7852295eb8b7d8",
@@ -189,44 +189,46 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "02b7ac9bdf863f3e",
+  "active": "547dc58861f1b1ff",
   "lastOpenFiles": [
-    "README.md",
-    "架构设计/实战设计/题03：设计分布式计数器 & 全局排行榜.md",
+    "人工智能/SpringAI/002. 使用 ChatModel 对话.md",
+    "人工智能/SpringAI/003. 记忆压缩和截取.md",
+    "人工智能/SpringAI/001. 项目构建.md",
+    "人工智能/001. 大模型基础.md",
+    "人工智能/SpringAI",
+    "人工智能/002. LangChain入门.md",
+    "人工智能/000. 相关技术栈.md",
+    "人工智能/003. LangGraph 入门.md",
+    "人工智能/005. 意图识别方案.md",
+    "面试总结/AI 面试.md",
+    "面试总结/难点问题.md",
+    "面试总结/鸣鸣很忙.md",
+    "面试总结/面试业务分析.md",
+    "面试总结/面试示例.md",
+    "面试总结/面试技术分析.md",
+    "面试总结/架构设计面试题.md",
+    "面试总结/2026 面试准备.md",
+    "面试总结/AI 面试题目汇总.md",
+    "中间件/消息队列/消息顺序消费.md",
+    "中间件/消息队列/Kafka的消费模式.md",
+    "中间件/MySQL/MySQL的架构设计.md",
+    "中间件/MySQL/MySQL的日志机制.md",
+    "中间件/MySQL/MySQL的事务机制.md",
+    "中间件/MySQL/MySQL的索引机制.md",
+    "中间件/MySQL/MySQL对MVCC的实现.md",
+    "中间件/Redis/Redis阻塞场景分析.md",
+    "中间件/Redis/Redis的应用场景.md",
+    "架构设计/assert/858186-20190804162611917-80438542.png",
+    "前端知识",
+    "编程算法/字符串/assert/Pasted image 20260914154457.png",
+    "编程算法/字符串/assert",
+    "编程算法/字符串",
+    "编程算法/堆",
+    "编程算法/回溯",
+    "编程算法/二分法",
     "category_update.py",
     "category_update.sh",
-    "未命名.md",
-    "架构设计/实战设计/题02：设计图片存储&图片缩略图服务（Image Hosting Service）.md",
-    "架构设计/实战设计/题01：设计短链接服务（Design URL Shortener）.md",
-    "编程算法/数学/M050. Pow(x, n).md",
     "架构设计/实战设计",
-    "编程算法/数学/E009.回文数.md",
-    "编程算法/数学/E066. 加一.md",
-    "编程算法/数学/assert/L03.java",
-    "编程算法/数学/assert",
-    "编程算法/动态规划/M300.最长递增子序列.md",
-    "编程算法/数学",
-    "编程算法/动态规划/E121. 买卖股票的最佳时机.md",
-    "编程算法/动态规划/M198.打家劫舍.md",
-    "编程算法/动态规划/E070. 爬楼梯.md",
-    "编程算法/动态规划/L22",
-    "编程算法/树/L101. 对称二叉树.md",
-    "编程算法/动态规划",
-    "编程算法/树/L226. 翻转二叉树.md",
-    "编程算法/树/L100. 相同的树.md",
-    "编程算法/树/L94. 二叉树的中序遍历.md",
-    "编程算法/树/104. 二叉树的最大深度.md",
-    "编程算法/栈/L71. 简化路径.md",
-    "编程算法/树",
-    "编程算法/链表/L141. 环形链表.md",
-    "编程算法/栈/L20. 有效的括号.md",
-    "编程算法/栈/L150. 逆波兰表达式求值.md",
-    "编程算法/链表",
-    "编程算法/数组/L151. 反转字符串中的单词.md",
-    "编程算法/双指针/L125. 验证回文串.md",
-    "编程算法/哈希表/49. 字母异位词分组.md",
-    "编程算法/哈希表/L202. 【中等】快乐数.md",
-    "编程算法/数组/L189. 【中等】轮转数组.md",
     "编程语言/Java/assert/Pasted image 20260906155916.png",
     "编程语言/Java/assert/Pasted image 20260906155443.png",
     "编程语言/Java/assert/Pasted image 20260906155348.png",

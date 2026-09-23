@@ -1,10 +1,10 @@
 {
   "accentColor": "#1233b5",
-  "cssTheme": "Simply Colorful",
+  "cssTheme": "Solarized",
   "interfaceFontFamily": "FZYouSongS",
   "textFontFamily": "FZYouSongS",
-  "monospaceFontFamily": "PT Mono",
-  "baseFontSize": 17,
+  "monospaceFontFamily": "Courier",
+  "baseFontSize": 19,
   "translucency": true,
   "baseFontSizeAction": true,
   "theme": "moonstone",

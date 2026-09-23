@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&family=Inconsolata:wght@200..900&display=swap');
+
+:root {
+	--input-focus-border-color: Highlight;
+	--input-focus-outline: 1px solid Canvas;
+	--input-unfocused-border-color: transparent;
+	--input-disabled-border-color: transparent;
+	--input-hover-border-color: black;
+	
+	--theme-radius-medium: 4px;
+	--theme-radius-small: 2px;
+}
+
+body {
+	--radius-s: 0px;
+	--radius-m: 0px;
+	--radius-l: 0px;
+	--input-radius: 0px;
+	--tab-radius-active: 0px;
+	--checkbox-radius: 0px;
+	--toggle-radius: 0px;
+	--toggle-thumb-radius: 0px;
+	--slider-thumb-radius: 0px;
+
+	--font-interface-theme: Hanken, sans-serif ;
+	--font-text-theme: "Ibarra Real Nova", serif;
+	--font-monospace-theme: Inconsolata, monospace;
+
+	--font-smallest: 0.8125em;
+	--font-smaller: 0.875em;
+	--font-small: 0.9375em;
+
+	--inline-title-size: 1.5rem;
+	--h1-size: 1.4375rem;
+	--h2-size: 1.3125rem;
+	--h3-size: 1.25rem;
+	--h4-size: 1.1875rem;
+	--h5-size: 1.125rem;
+	--h6-size: 1.0625rem;
+
+	--inline-title-line-height: 1.3333;
+	--h1-line-height: 1.3913;
+	--h2-line-height: 1.3333;
+	--h3-line-height: 1.4;
+	--h4-line-height: 1.4737;
+	--h5-line-height: 1.5556;
+	--h6-line-height: 1.4118;
+	--line-height-normal: 1.5;
+
+	--inline-title-letter-spacing: 0.0133em;
+	--h1-letter-spacing: 0.0152em;
+	--h2-letter-spacing: 0.0195em;
+	--h3-letter-spacing: 0.022em;
+	--h4-letter-spacing: 0.0247em;
+	--h5-letter-spacing: 0.0278em;
+	--h6-letter-spacing: 0.0312em;
+
+	--heading-spacing: 1em;
+	--p-spacing: 1em;
+
+	--code-background: color-mix(in srgb, var(--text-accent) 10%, var(--text-accent) 10%);
+	--code-radius: var(--theme-radius-small);
+
+	--hr-thickness: 1px;
+
+	--background-modifier-border: var(--color-base-40);
+    --background-modifier-border-hover: var(--color-base-50);
+    --background-modifier-border-focus: var(--color-base-60);
+
+	--callout-default: color-mix(in srgb, var(--text-accent) 75%, var(--callout-question) 100%);
+	--callout-radius: var(--theme-radius-medium);
+}
+
+.workspace-tab-header.is-active::before,
+.workspace-tab-header.is-active::after {
+	display: none;
+}
+
+svg * {
+	stroke-linecap: square;
+	stroke-linejoin: miter;
+	rx: 0;
+	ry: 0;
+}
+
+.menu {
+	padding: var(--size-2-1);
+}
+
+.menu-item {
+	padding: var(--size-4-1) var(--size-4-2);
+}
+
+.menu-separator {
+	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
+}
+
+.theme-dark {
+	--workspace-background-translucent: color-mix(in srgb, var(--text-accent) 5%, black 90%);
+	--background-primary: color-mix(in srgb, var(--text-accent) 25%, black 100%);
+	--background-secondary: color-mix(in srgb, var(--text-accent) 15%, black 100%);
+	--numerals-background: color-mix(in srgb, var(--text-accent) 50%, black 90%);
+	--text-normal: color-mix(in srgb, var(--text-accent) 30%, white 100%);
+	--text-muted: color-mix(in srgb, var(--text-accent) 100%, white 30%);
+	--tab-text-color-focused-active-current: color-mix(in srgb, var(--text-accent) 70%, white 100%);}
+
+.theme-light {
+	--background-primary: var(--color-base-00);
+	--background-secondary: var(--color-base-10);
+	--numerals-background: var(--color-base-05);
+	--text-normal: var(--color-base-100);
+
+	--workspace-background-translucent: color-mix(in srgb, var(--text-accent) 5%, white 90%);
+	--background-primary: var(--color-base-00);
+	--background-secondary: color-mix(in srgb, var(--text-accent) 15%, white 100%);
+	--numerals-background: color-mix(in srgb, var(--text-accent) 15%, white 90%);
+	--text-normal: color-mix(in srgb, var(--text-accent) 30%, black 100%);
+	--text-muted: color-mix(in srgb, var(--text-accent) 100%, black 30%);
+	--tab-text-color-focused-active-current: color-mix(in srgb, var(--text-accent) 70%, black 100%);
+}
+
+.numerals-block {
+	border-radius: var(--theme-radius-medium);
+}

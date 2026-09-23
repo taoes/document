@@ -10,9 +10,7 @@
 
 **参考回答**：
 
-> 我叫周涛，10年开发经验，本科电子信息工程，是一名全栈工程师。主力技术栈是Java Spring全家桶，同时熟悉Golang、Python、Node.js多后端语言，前端Vue/React也可以独立完成开发；云原生方面熟练Docker、K8s，熟悉MySQL、Redis、ES、MQ等中间件调优。
-
->
+> 我叫周涛，10年开发经验，本科电子信息工程，是一名全栈工程师。主力技术栈是Java Spring全家桶，同时熟悉Golang、Python、Node.js多后端语言，前端Vue/React也可以独立完成开发；云原生方面熟练Docker、K8s，熟悉MySQL、Redis、ES、MQ等中间件调优。>
 
 > 目前在阿里本地生活淘宝闪购担任资深全栈工程师，主要负责地推拜访平台、高校业务平台的全栈研发和架构设计，核心一块是做**AI Agent业务平台落地**，基于LangChain、LangGraph、Dify搭建业务智能体，沉淀业务SKILL单元，把大模型深度融合进B端业务流程，服务地推、校园即时零售业务。
 

@@ -2,6 +2,8 @@
 CPU 高、接口卡顿、线程阻塞、死锁、等待锁、线程池满，优先抓 ThreadDump。
 
 ```shell
+ps -efH ｜ grep java  # 查询进程情况
+top -H -p <pid> #查询 进程情况
 jstack -l <pid> > thread1.txt # 连续多份，看线程状态变化，只抓一次容易误判
 ```
 
@@ -47,6 +49,8 @@ GC 频繁、FullGC、停顿长、CPU 波动，优先看 GC 日志，不需要抓
 
 ```text
 -Xloggc:/data/gc.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps
+
+jstat -gc
 ```
 
 - GC 类型：YGC / FullGC
@@ -69,6 +73,27 @@ GC 频繁、FullGC、停顿长、CPU 波动，优先看 GC 日志，不需要抓
 	- 如果 OOM / FullGC 频繁：先查看 GC 日志，判断是内存泄漏还是堆不足；发生 OOM 时自动生成 heap dump，下载后用 MAT 分析支配树，找到泄漏对象和引用链。
 	- load 高： 执行 jstack 连续抓 3 份线程快照 看线程有无大量等待在某个节点上
 
+
+
+```text
+先 jps 拿 pid → top 看负载 CPU 
+	CPU 高：top -H 抓线程 → jstack 定位代码，jstat 看 GC 
+	OOM：导出 heap dump，MAT 分析引用链，定位内存泄漏 
+	FullGC 频繁：看老年代增长，区分内存泄漏 / CMS 碎片 
+	线程异常：jstack，查 BLOCKED、死锁、WAITING
+```
+
+```text
+1. **jps**：查看 Java 进程 PID
+2. **jstat**：实时 GC 统计
+    - `jstat -gc pid 1000`：每秒输出 GC、YGC、FGC、耗时、堆各区域使用量
+3. **jstack pid**：线程快照，定位死锁、BLOCKED、高 CPU 线程
+4. **jmap**：堆快照
+    - `jmap -dump:format=b,file=heap.hprof pid` 导出堆文件（**业务高峰期慎用，会 STW**）
+5. **jhat**：简单分析 hprof（一般用 MAT 代替）
+6. **MAT（Memory Analyzer Tool）**：离线分析堆 dump，找大对象、内存泄漏
+7. **jvisualvm**：图形化监控
+```
 
 # 高频追问
 

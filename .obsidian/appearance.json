@@ -1,8 +1,8 @@
 {
-  "accentColor": "#1233b5",
-  "cssTheme": "Wikipedia",
-  "interfaceFontFamily": "FZYouSongS",
-  "textFontFamily": "FZYouSongS",
+  "accentColor": "#095cc8",
+  "cssTheme": "Wikidian",
+  "interfaceFontFamily": "",
+  "textFontFamily": "",
   "monospaceFontFamily": "Courier",
   "baseFontSize": 19,
   "translucency": true,

@@ -2,8 +2,8 @@
 home: true
 layout: Blog
 icon: house
-title: 此间余序
-heroText: 此间余序
+title: 画茬
+heroText: 画茬
 tagline: 记录 Java、Python 与 Agent 实践的深度技术博客
 heroFullScreen: true
 projects:
@@ -22,7 +22,7 @@ projects:
     desc: 大模型 Agent 与 RAG 工程化落地
     link: /category/agent/
 
-footer: 此间余序 · 记录技术的秩序与余韵
+footer: "<a href='https://beian.miit.gov.cn'>沪ICP备2024098207号-1</a>"
 ---
 
 这是一个基于 VuePress Theme Hope 构建的个人技术博客。

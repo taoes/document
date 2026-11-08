@@ -3,23 +3,23 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   "/",
   {
-    text: "博文",
+    text: "全部博文",
     icon: "pen-to-square",
     prefix: "/",
     children: [
       { text: "全部文章", icon: "list", link: "/article/" },
-      { text: "Java", icon: "code", link: "/category/java/" },
-      { text: "Python", icon: "terminal", link: "/category/python/" },
+      { text: "Java 相关", icon: "code", link: "/category/java/" },
+      { text: "Python 开发", icon: "terminal", link: "/category/python/" },
       { text: "Agent 实践", icon: "robot", link: "/category/agent/" },
     ],
   },
   {
-    text: "分类",
+    text: "文章分类",
     icon: "folder-open",
     link: "/category/",
   },
   {
-    text: "标签",
+    text: "内容标签",
     icon: "tag",
     link: "/tag/",
   },
@@ -29,7 +29,7 @@ export default navbar([
     link: "/timeline/",
   },
   {
-    text: "关于",
+    text: "关于本站",
     icon: "circle-info",
     link: "/intro.html",
   },

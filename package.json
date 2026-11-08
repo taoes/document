@@ -1,7 +1,7 @@
 {
   "name": "cijian-yuxu-blog",
   "version": "2.0.0",
-  "description": "此间余序 —— 记录 Java、Python 与 Agent 实践的深度技术博客",
+  "description": "画茬 —— 记录 Java、Python 与 Agent 实践的深度技术博客",
   "license": "MIT",
   "type": "module",
   "scripts": {

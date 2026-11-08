@@ -3,9 +3,9 @@ icon: circle-info
 cover: /assets/images/cover3.jpg
 ---
 
-# 关于此间余序
+# 关于画茬
 
-「此间余序」是一个记录技术思考与实践的个人博客，聚焦 Java、Python 与 Agent（大模型智能体）三个方向。
+「画茬」是一个记录技术思考与实践的个人博客，聚焦 Java、Python 与 Agent（大模型智能体）三个方向。
 
 ## 内容方向
 

@@ -7,7 +7,7 @@ export default hopeTheme({
   hostname: "https://cijian-yuxu.example.com",
 
   author: {
-    name: "此间余序",
+    name: "周涛",
   },
 
   docsDir: "src",
@@ -19,7 +19,7 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "此间余序 · 记录技术的秩序与余韵",
+  footer: "记录技术的秩序与余韵",
   displayFooter: true,
 
   // 博客相关
